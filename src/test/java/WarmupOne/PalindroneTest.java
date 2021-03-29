@@ -36,4 +36,14 @@ public class PalindroneTest {
     public void noNotPalindrome() {
         assertEquals(false, Palindrone.isPalindrome("nopenotgonnawork"));
     }
+
+    @Test
+    public void isNumPalindromeTest() {assertEquals(true, Palindrone.isNumberPalindrome(121));}
+
+    @Test
+    public void isNumPalindromeTest2() {assertEquals(true, Palindrone.isNumberPalindrome(1234554321));}
+
+    @Test
+    public void isNumPalindromeNoTest() {assertEquals(false, Palindrone.isNumberPalindrome(1237895421));}
+
 }
