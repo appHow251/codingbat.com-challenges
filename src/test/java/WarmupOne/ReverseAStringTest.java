@@ -35,4 +35,11 @@ public class ReverseAStringTest {
         Assert.assertEquals(expected, actual);
     }
 
+    @Test
+    public void reverseNumber() {
+        int expected = 4321;
+        int actual = ReverseAString.reversedNumber(1234);
+        Assert.assertEquals(expected, actual);
+    }
+
 }

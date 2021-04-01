@@ -46,4 +46,9 @@ public class PalindroneTest {
     @Test
     public void isNumPalindromeNoTest() {assertEquals(false, Palindrone.isNumberPalindrome(1237895421));}
 
+    @Test
+    public void isNumPalindromUsingLoop() {
+        assertEquals(true, Palindrone.isNumberPalindromeUsingLoop(1234554321));
+    }
+
 }
